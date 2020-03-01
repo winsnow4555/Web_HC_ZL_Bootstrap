@@ -1,0 +1,46 @@
+.card {
+  display: block;
+}
+
+.icon-style {
+  background: #eee;
+  border-radius: 100% !important;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.icon-style:hover {
+  background: #ECD7D2;
+}
+
+.icon-4 {
+  width: 64px;
+  height: 64px;
+}
+
+.icon-5 {
+  width: 56px;
+  height: 56px;
+}
+
+.icon-6 {
+  width: 48px;
+  height: 48px;
+  background: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel-inner {
+    height: 80vh;
+  }
+  .carousel-inner .carousel-caption {
+    bottom: 200px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .carousel-inner .carousel-caption {
+    bottom: 550px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
